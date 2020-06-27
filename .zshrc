@@ -101,3 +101,6 @@ source $ZSH/oh-my-zsh.sh
 alias vi=vim
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+source /usr/share/nvm/init-nvm.sh
+
+function gi() { curl -sLw "\n" https://www.toptal.com/developers/gitignore/api/\$@ ;}
